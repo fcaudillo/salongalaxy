@@ -1,0 +1,32 @@
+
+#navegacion {
+    background-color: #bbef6e !important;
+}
+
+#footer {
+    background-color: #bbef6e !important;
+}
+
+.btn-salon {
+  background-color: #bbef6e;
+}
+
+#navegacion img {
+    width: 120px;
+  
+}
+
+#paquetes {
+    background-color: #ffffb3;
+}
+
+#paquetes .card {
+    margin-top: 20px;
+}
+
+
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}

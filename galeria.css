@@ -1,0 +1,24 @@
+
+#navegacion {
+    background-color: #bbef6e !important;
+}
+
+#footer {
+    background-color: #bbef6e !important;
+}
+
+.btn-salon {
+  background-color: #bbef6e;
+}
+
+#navegacion img {
+    width: 120px;
+  
+}
+
+
+.carousel-item img {
+    height: 350px;
+    object-fit: cover;
+    filter: grayscale(75%);
+}
