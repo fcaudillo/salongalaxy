@@ -17,7 +17,7 @@
    }
    
    stage('Deploy a produccion') {
-       sh "cd main && docker-compose up -d --no-deps --build salon-galaxy"
+       sh "cd  main && docker-compose up -d --no-deps --build salon-galaxy"
    }
 
 }

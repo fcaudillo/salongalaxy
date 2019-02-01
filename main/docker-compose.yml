@@ -1,0 +1,9 @@
+version: '2'
+#El nombre del servicio y el nombre del subdominio deben de conincider
+services:
+  salon-galaxy:
+    image: fcaudillo/salon-galaxy
+    environment:
+      - VIRTUAL_HOST=salon-galaxy.elverde.mx
+      - LETSENCRYPT_HOST=salon-galaxy.elverde.mx
+      - LETSENCRYPT_EMAIL=fcaudilloperez1971@gmail.com
