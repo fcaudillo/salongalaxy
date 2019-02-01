@@ -1,0 +1,6 @@
+FROM nginx
+COPY salon-galaxy /usr/share/nginx/html
+
+
+
+
