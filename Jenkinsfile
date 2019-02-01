@@ -5,6 +5,7 @@
    }
    
    stage('Construyendo imagen') {
+       sh ('ls')
        sh ('docker build -t fcaudillo/salon-galaxy -f Dockerfile-dev-galaxy . ') 
    }
   
